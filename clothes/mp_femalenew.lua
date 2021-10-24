@@ -1,12 +1,12 @@
 FemaleComp = {
-	Done--HATS -------- 880 944
-	Done--EYEWEAR ----- 50 85
+	done--HATS -------- 880 944 new
+	done--EYEWEAR ----- 50 85
 	Done--MASKS ------- 78 98
 	Done--BANDANAS ---- 248 300
 	Done--NECKTIES ---- 113 124
 	Done--SHIRTS ------ 418 479
-	Done--Suspenders -- 71 72
-	Done--VESTS ------- 289 303
+	done--Suspenders -- 71 72
+	done--VESTS ------- 289 303
 	Done--COATS ------- 677  761
 	Done--Cloaks ------ 13 13
 	Done--Ponchos ----- 88 101
@@ -14,11 +14,11 @@ FemaleComp = {
 	Done--GLOVES ------ 187 207
 	--Gauntlets --- 15  16
 	Done--BELTS ------- 92 98
-	--BeltBuckles - 216 238
-	--Gunbelts ---- 90  97
-	--Spurs ------- 122 129
-	--PANTS ------- 412 441
-	--CHAPS ------- 65 66
+	Done--BeltBuckles - 216 238
+	Done--Gunbelts ---- 90  97
+	Done--Spurs ------- 122 129
+	Done--PANTS ------- 412 441
+	Done--CHAPS ------- 65 66
 	--SPATS ------- 133 133
 	--BOOTS ------- 611 639
 	--ACESSORIES -- 61 65
@@ -111,7 +111,7 @@ FemaleComp = {
 
 	
 	
-    []={["name"]="Arthur_001",                    ["hash"]="0x070D14D0",["category"]="hats"},--2
+[]={["name"]="Arthur_001",                    ["hash"]="0x070D14D0",["category"]="hats"},--2
 	[]={["name"]="Outlaw_001",                    ["hash"]="0x2809B3FE",["category"]="hats"},--3
 	[]={["name"]="tall_crown_wide_001",           ["hash"]="0xF850390F",["category"]="hats"},--4
 	[]={["name"]="john_marston_hat_01",           ["hash"]="0x83CAF546",["category"]="hats"},--5
@@ -1080,6 +1080,7 @@ FemaleComp = {
 	[]={["name"]="Mask_001",                  ["hash"]="0xC615A086",["category"]="eyewear"},--49
 	[]={["name"]="",                          ["hash"]="0x0F4A1437",["category"]="eyewear"},--50
 ------------------------ MASKS - 78 -----------------------------------------0
+
     {hashname="CLOTHING_ITEM_F_MASK_008_VAR_001",category_hashname="masks",ped_type="female",is_multiplayer=true,category_hash=0x7505EF42,hash=0xD03C1734,hash_dec_signed=-801368268,category_hash_dec_signed=1963323202},
     {hashname="CLOTHING_ITEM_F_MASK_009_VAR_001",category_hashname="masks",ped_type="female",is_multiplayer=true,category_hash=0x7505EF42,hash=0x41131BFF,hash_dec_signed=1091771391,category_hash_dec_signed=1963323202},
     {hashname="CLOTHING_ITEM_F_MASK_009_VAR_002",category_hashname="masks",ped_type="female",is_multiplayer=true,category_hash=0x7505EF42,hash=0x4EBC3751,hash_dec_signed=1320957777,category_hash_dec_signed=1963323202},
@@ -1235,7 +1236,6 @@ FemaleComp = {
     {hashname="CLOTHING_ITEM_F_NECKWEAR_400_TINT_000",category_hashname="neckwear",ped_type="female",is_multiplayer=true,category_hash=0x5FC29285,hash=0x6DA2F717,hash_dec_signed=1839396631,category_hash_dec_signed=1606587013},
     {hashname="CLOTHING_ITEM_F_NECKWEAR_311_TINT_001",category_hashname="neckwear",ped_type="female",is_multiplayer=true,category_hash=0x5FC29285,hash=0xF6AFCF61,hash_dec_signed=-156250271,category_hash_dec_signed=1606587013},
     {hashname="CLOTHING_ITEM_F_NECKWEAR_000_TINT_004",category_hashname="neckwear",ped_type="female",is_multiplayer=true,category_hash=0x5FC29285,hash=0x44369DA,hash_dec_signed=1149463002,category_hash_dec_signed=1606587013},
-
 
 
     []={["name"]="Nil",                       ["hash"]="0x01178FE3",["category"]="neckwear"},--1
@@ -1499,7 +1499,7 @@ FemaleComp = {
     {hashname="CLOTHING_ITEM_F_NECKTIE_301_TINT_001",category_hashname="neckties",ped_type="female",is_multiplayer=true,category_hash=0x7A96FACA,hash=0x59A6C86A,hash_dec_signed=1504102506,category_hash_dec_signed=2056714954},
 
 
-    []={["name"]="",                       ["hash"]="0x0164D13B",["category"]="neckties"},--1
+	[]={["name"]="Nil",                       ["hash"]="0x0164D13B",["category"]="neckties"},--1
 	[]={["name"]="thin_ribb_00",              ["hash"]="0x0C0F55CB",["category"]="neckties"},--2
 	[]={["name"]="thin_ribb_00",              ["hash"]="0x16966AD9",["category"]="neckties"},--3
 	[]={["name"]="thin_ribb_00",              ["hash"]="0x2F5A1C60",["category"]="neckties"},--4
@@ -1612,7 +1612,7 @@ FemaleComp = {
 	[]={["name"]="necktie_002_tint_008",      ["hash"]="0xD08C5AAF",["category"]="neckties"},--111
 	[]={["name"]="necktie_002_tint_009",      ["hash"]="0x7EC8B729",["category"]="neckties"},--112
 	[]={["name"]="necktie_002_tint_010",      ["hash"]="0x5F91F5B8",["category"]="neckties"},--113
------------------------------------ Shirts - 418 --------------------------------------------- --0                                
+----------------------------------- Shirts - 418 --------------------------------------------- --0 
     {hashname="",category_hashname="shirts_full",ped_type="female",is_multiplayer=true,category_hash=0x2026C46D,hash=0xDC739CD8,hash_dec_signed=-596402984,category_hash_dec_signed=539411565},
     {hashname="",category_hashname="shirts_full",ped_type="female",is_multiplayer=true,category_hash=0x2026C46D,hash=0xD4CC965C,hash_dec_signed=-724789668,category_hash_dec_signed=539411565},
     {hashname="",category_hashname="shirts_full",ped_type="female",is_multiplayer=true,category_hash=0x2026C46D,hash=0xAB0F3246,hash_dec_signed=-1425067450,category_hash_dec_signed=539411565},
@@ -1691,8 +1691,7 @@ FemaleComp = {
     {hashname="CLOTHING_ITEM_F_SHIRT_000_TINT_004",category_hashname="shirts_full",ped_type="female",is_multiplayer=true,category_hash=0x2026C46D,hash=0x05EF97D9,hash_dec_signed=99588057,category_hash_dec_signed=539411565},
     {hashname="CLOTHING_ITEM_F_SEASONAL_002_SHIRT_000",category_hashname="shirts_full",ped_type="female",is_multiplayer=true,category_hash=0x2026C46D,hash=0x08020F87,hash_dec_signed=134352775,category_hash_dec_signed=539411565},
 
-
-       []={["name"]="",                       ["hash"]="0x004869A5",["category"]="shirts"},--1
+	[]={["name"]="Nil",                       ["hash"]="0x004869A5",["category"]="shirts"},--1
 	[]={["name"]="F_Arthur",                  ["hash"]="0x80020F87",["category"]="shirts"},--2
 	[]={["name"]="F_rancher_shirt_var_001",   ["hash"]="0xE30A6289",["category"]="shirts"},--3
 	[]={["name"]="F_SEASON_000_SHIRT_000",    ["hash"]="0x98DB5B59",["category"]="shirts"},--4
@@ -2112,8 +2111,8 @@ FemaleComp = {
 	[]={["name"]="P_covered_sleeve_00",       ["hash"]="0xED0DFD82",["category"]="shirts"},--418
 ------------------------------------- Suspenders - 71 --------------------------------------------------
     {hashname="",category_hashname="suspenders",ped_type="female",is_multiplayer=true,category_hash=0x877A2CF7,hash=0xE3A73D84,hash_dec_signed=-475579004,category_hash_dec_signed=-2022036233},
-    
-    []={["name"]="",                       ["hash"]="0x2E1735D1",["category"]="suspenders"},--1
+
+	[]={["name"]="Nil",                       ["hash"]="0x2E1735D1",["category"]="suspenders"},--1
 	[]={["name"]="Down_Thin_Connect_00",      ["hash"]="0xA8494F10",["category"]="suspenders"},--2
 	[]={["name"]="Leather_Buckle_00",         ["hash"]="0x1B5D2B7A",["category"]="suspenders"},--3
 	[]={["name"]="Thin_Line_Strap_00",        ["hash"]="0x7EE7DBC1",["category"]="suspenders"},--4
@@ -2199,8 +2198,7 @@ FemaleComp = {
     {hashname="CLOTHING_ITEM_F_VESTS_312_TINT_003",category_hashname="vests",ped_type="female",is_multiplayer=true,category_hash=0x485EE834,hash=0x804D6324,hash_dec_signed=-2142411996,category_hash_dec_signed=1214179380},
     {hashname="CLOTHING_ITEM_F_VESTS_312_TINT_002",category_hashname="vests",ped_type="female",is_multiplayer=true,category_hash=0x485EE834,hash=0x56130EB0,hash_dec_signed=1444089520,category_hash_dec_signed=1214179380},
     {hashname="CLOTHING_ITEM_F_VESTS_312_TINT_001",category_hashname="vests",ped_type="female",is_multiplayer=true,category_hash=0x485EE834,hash=0x63CAAA1F,hash_dec_signed=1674226207,category_hash_dec_signed=1214179380},
-
-
+    
     []={["name"]="",                          ["hash"]="0x0083F433",["category"]="vests"},--1
 	[]={["name"]="Marstondenim_00",           ["hash"]="0x3B1451BD",["category"]="vests"},--2
 	[]={["name"]="Blackrose_00",              ["hash"]="0x80DC8309",["category"]="vests"},--3
@@ -2537,9 +2535,9 @@ FemaleComp = {
     {hashname="",category_hashname="coats",ped_type="female",is_multiplayer=true,category_hash=0xE06D30CE,hash=0x964CF8BE,hash_dec_signed=-1773340482,category_hash_dec_signed=-529714994},
     {hashname="",category_hashname="coats",ped_type="female",is_multiplayer=true,category_hash=0xE06D30CE,hash=0xD28B409C,hash_dec_signed=-762625892,category_hash_dec_signed=-529714994},
     {hashname="",category_hashname="coats",ped_type="female",is_multiplayer=true,category_hash=0xE06D30CE,hash=0xFF228352,hash_dec_signed=-14515374,category_hash_dec_signed=-529714994},
-
-
-    []={["name"]="",                       ["hash"]="0x00AAE73F",["category"]="coats"},--1
+    
+    
+    []={["name"]="Nil",                       ["hash"]="0x00AAE73F",["category"]="coats"},--1
 	[]={["name"]="Closed_winter_coat_00",     ["hash"]="0x15DA9A43",["category"]="coats"},--2
 	[]={["name"]="Closed_winter_coat_00",     ["hash"]="0x553C9087",["category"]="coats"},--3
 	[]={["name"]="Closed_winter_coat_00",     ["hash"]="0x5E302640",["category"]="coats"},--4
@@ -2764,7 +2762,6 @@ FemaleComp = {
 	{hashname="",category_hashname="coats_closed",ped_type="female",is_multiplayer=true,category_hash=0x0662AC34,hash=--0xCEEAE284,hash_dec_signed=-823467388,category_hash_dec_signed=107129908},
 	{hashname="",category_hashname="coats_closed",ped_type="female",is_multiplayer=true,category_hash=0x0662AC34,hash=--0xDD9D0F94,hash_dec_signed=-576909420,category_hash_dec_signed=107129908},
 	{hashname="",category_hashname="coats_closed",ped_type="female",is_multiplayer=true,category_hash=0x0662AC34,hash=--0xF254CFDA,hash_dec_signed=-229322790,category_hash_dec_signed=107129908},
-	{hashname="",category_hashname="coats_closed",ped_type="female",is_multiplayer=true,category_hash=0x0662AC34,hash=--0xD1797C3D,hash_dec_signed=-780567491,category_hash_dec_signed=107129908},
 
 
 	[]={["name"]="Delgato_buckskin_coat_00",  ["hash"]="0x25E14B37",["category"]="coats"},--188
@@ -3292,7 +3289,7 @@ FemaleComp = {
     {hashname="CLOTHING_ITEM_F_PONCHO_003_TINT_004",category_hashname="ponchos",ped_type="female",is_multiplayer=true,category_hash=0xAF14310B,hash=0x0D20375B,hash_dec_signed=220215131,category_hash_dec_signed=-1357631221},
     {hashname="CLOTHING_ITEM_F_PONCHO_001_TINT_007",category_hashname="ponchos",ped_type="female",is_multiplayer=true,category_hash=0xAF14310B,hash=0x0665876D,hash_dec_signed=107317101,category_hash_dec_signed=-1357631221},
 
-    []={["name"]="Nil",                       ["hash"]="0x02116919",["category"]="ponchos"},--1
+	[]={["name"]="Nil",                       ["hash"]="0x02116919",["category"]="ponchos"},--1
 	[]={["name"]="buckled_animal_hide_00",    ["hash"]="0x54A3B1D8",["category"]="ponchos"},--2
 	[]={["name"]="tradtional_poncho_00",      ["hash"]="0x16AC120A",["category"]="ponchos"},--3
 	[]={["name"]="tradtional_poncho_00",      ["hash"]="0x2EF8E575",["category"]="ponchos"},--4
@@ -3743,10 +3740,7 @@ FemaleComp = {
 	[]={["name"]="ROUGHRIDER_GLOVES_000",      ["hash"]="0xAEC509DE",["category"]="gloves"},--186
 	[]={["name"]="SEASON_GLOVES_000_T0INT_001",["hash"]="0x7555BF86",["category"]="gloves"},--187
 ------------------------ Gauntlets - 15 ----------------------------
-    {hashname="CLOTHING_ITEM_F_GAUNTLETS_400_VAR_001",category_hashname="gauntlets",ped_type="female",is_multiplayer=true,category_hash=0x91CE9B20,hash=0x31BD88DC,hash_dec_signed=834504924,category_hash_dec_signed=-1848730848},
-
-
-	[]={["name"]="Nil",                        ["hash"]="0x1A16E7F0",["category"]="gauntlets"},--1
+	[]={["name"]="",                        ["hash"]="0x1A16E7F0",["category"]="gauntlets"},--1
 	[]={["name"]="Leather_Thumb_Lp_00",        ["hash"]="0x2835F713",["category"]="gauntlets"},--2
 	[]={["name"]="Leather_Thumb_Lp_00",        ["hash"]="0x310708B1",["category"]="gauntlets"},--3
 	[]={["name"]="Leather_Thumb_Lp_00",        ["hash"]="0x4ADD3C61",["category"]="gauntlets"},--4
@@ -3862,29 +3856,30 @@ FemaleComp = {
 	[]={["name"]="Half_Apron_005",             ["hash"]="0xA5426E23",["category"]="belts"},--91
 	[]={["name"]="Half_Apron_006",             ["hash"]="0xC1B52708",["category"]="belts"},--92
 ----------------------------- BeltBuckles - 216-----------------------------------------
-{hashname="CLOTHING_F_R1_BUCKLE_001_TINT_001",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0xEB0D0D2A,hash_dec_signed=-351466198,category_hash_dec_signed=-85389185},
-{hashname="CLOTHING_F_R1_BUCKLE_001_TINT_002",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0xFBB2AE75,hash_dec_signed=-72176011,category_hash_dec_signed=-85389185},
-{hashname="CLOTHING_F_R1_BUCKLE_001_TINT_003",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0x09E04AD0,hash_dec_signed=165694160,category_hash_dec_signed=-85389185},
-{hashname="CLOTHING_F_R1_BUCKLE_001_TINT_004",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0x14CD60AA,hash_dec_signed=349003946,category_hash_dec_signed=-85389185},
-{hashname="CLOTHING_F_R1_BUCKLE_001_TINT_005",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0xA619033F,hash_dec_signed=-1508310209,category_hash_dec_signed=-85389185},
-{hashname="CLOTHING_F_R1_BUCKLE_001_TINT_006",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0x6B958E35,hash_dec_signed=1804963381,category_hash_dec_signed=-85389185},
-{hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_004_VAR_001",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0xFF5B54E6,hash_dec_signed=-10791706,category_hash_dec_signed=-85389185},
-{hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_004_VAR_002",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0xF18A3944,hash_dec_signed=-242599612,category_hash_dec_signed=-85389185},
-{hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_004_VAR_003",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0xE2C49BB9,hash_dec_signed=-490431559,category_hash_dec_signed=-85389185},
-{hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_004_VAR_004",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0x534FFCCE,hash_dec_signed=1397750990,category_hash_dec_signed=-85389185},
-{hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_005_VAR_001",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0x082529C1,hash_dec_signed=136653249,category_hash_dec_signed=-85389185},
-{hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_005_VAR_002",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0xF9F28D5C,hash_dec_signed=-101544612,category_hash_dec_signed=-85389185},
-{hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_005_VAR_003",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0xBE9416A0,hash_dec_signed=-1097591136,category_hash_dec_signed=-85389185},
-{hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_005_VAR_004",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0x1845CA02,hash_dec_signed=407226882,category_hash_dec_signed=-85389185},
-{hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_006_VAR_000",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0x981C0312,hash_dec_signed=-1742994670,category_hash_dec_signed=-85389185},
-{hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_006_VAR_001",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0x8E0AEEF4,hash_dec_signed=-1911886092,category_hash_dec_signed=-85389185},
-{hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_006_VAR_002",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0x7BBD4A59,hash_dec_signed=2076002905,category_hash_dec_signed=-85389185},
-{hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_006_VAR_003",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0x3F8AD1F5,hash_dec_signed=1066062325,category_hash_dec_signed=-85389185},
-{hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_006_VAR_004",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0x5D340D47,hash_dec_signed=1563692359,category_hash_dec_signed=-85389185},
-{hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_006_VAR_005",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0x22F718CE,hash_dec_signed=586619086,category_hash_dec_signed=-85389185},
-{hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_006_VAR_006",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0x526577AA,hash_dec_signed=1382381482,category_hash_dec_signed=-85389185},
-{hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_006_VAR_007",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0xF05EB3D6,hash_dec_signed=-262229034,category_hash_dec_signed=-85389185},
-[]={["name"]="Nil",                            ["hash"]="0x01D43574",["category"]="beltbuckle"},--1
+    {hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_004_VAR_001",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0xFF5B54E6,hash_dec_signed=-10791706,category_hash_dec_signed=-85389185},
+    {hashname="CLOTHING_F_R1_BUCKLE_001_TINT_001",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0xEB0D0D2A,hash_dec_signed=-351466198,category_hash_dec_signed=-85389185},
+    {hashname="CLOTHING_F_R1_BUCKLE_001_TINT_002",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0xFBB2AE75,hash_dec_signed=-72176011,category_hash_dec_signed=-85389185},
+    {hashname="CLOTHING_F_R1_BUCKLE_001_TINT_003",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0x09E04AD0,hash_dec_signed=165694160,category_hash_dec_signed=-85389185},
+    {hashname="CLOTHING_F_R1_BUCKLE_001_TINT_004",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0x14CD60AA,hash_dec_signed=349003946,category_hash_dec_signed=-85389185},
+    {hashname="CLOTHING_F_R1_BUCKLE_001_TINT_005",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0xA619033F,hash_dec_signed=-1508310209,category_hash_dec_signed=-85389185},
+    {hashname="CLOTHING_F_R1_BUCKLE_001_TINT_006",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0x6B958E35,hash_dec_signed=1804963381,category_hash_dec_signed=-85389185},
+    {hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_004_VAR_001",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0xFF5B54E6,hash_dec_signed=-10791706,category_hash_dec_signed=-85389185},
+    {hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_004_VAR_002",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0xF18A3944,hash_dec_signed=-242599612,category_hash_dec_signed=-85389185},
+    {hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_004_VAR_003",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0xE2C49BB9,hash_dec_signed=-490431559,category_hash_dec_signed=-85389185},
+    {hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_004_VAR_004",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0x534FFCCE,hash_dec_signed=1397750990,category_hash_dec_signed=-85389185},
+    {hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_005_VAR_001",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0x082529C1,hash_dec_signed=136653249,category_hash_dec_signed=-85389185},
+    {hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_005_VAR_002",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0xF9F28D5C,hash_dec_signed=-101544612,category_hash_dec_signed=-85389185},
+    {hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_005_VAR_003",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0xBE9416A0,hash_dec_signed=-1097591136,category_hash_dec_signed=-85389185},
+    {hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_005_VAR_004",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0x1845CA02,hash_dec_signed=407226882,category_hash_dec_signed=-85389185},
+    {hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_006_VAR_000",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0x981C0312,hash_dec_signed=-1742994670,category_hash_dec_signed=-85389185},
+    {hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_006_VAR_001",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0x8E0AEEF4,hash_dec_signed=-1911886092,category_hash_dec_signed=-85389185},
+    {hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_006_VAR_002",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0x7BBD4A59,hash_dec_signed=2076002905,category_hash_dec_signed=-85389185},
+    {hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_006_VAR_003",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0x3F8AD1F5,hash_dec_signed=1066062325,category_hash_dec_signed=-85389185},
+    {hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_006_VAR_004",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0x5D340D47,hash_dec_signed=1563692359,category_hash_dec_signed=-85389185},
+    {hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_006_VAR_005",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0x22F718CE,hash_dec_signed=586619086,category_hash_dec_signed=-85389185},
+    {hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_006_VAR_006",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0x526577AA,hash_dec_signed=1382381482,category_hash_dec_signed=-85389185},
+    {hashname="CLOTHING_ITEM_F_SEASON_BUCKLE_006_VAR_007",category_hashname="belt_buckles",ped_type="female",is_multiplayer=true,category_hash=0xFAE9107F,hash=0xF05EB3D6,hash_dec_signed=-262229034,category_hash_dec_signed=-85389185},
+    []={["name"]="Nil",                            ["hash"]="0x01D43574",["category"]="beltbuckle"},--1
 	[]={["name"]="rounded_diamond_00",         ["hash"]="0x1133A823",["category"]="beltbuckle"},--2
 	[]={["name"]="rounded_diamond_00",         ["hash"]="0x285CFC11",["category"]="beltbuckle"},--3
 	[]={["name"]="rounded_diamond_00",         ["hash"]="0x36D04011",["category"]="beltbuckle"},--4
@@ -4101,7 +4096,16 @@ FemaleComp = {
 	[]={["name"]="season_buckle_003_var_003",  ["hash"]="0xF293304D",["category"]="beltbuckle"},--215
 	[]={["name"]="season_buckle_003_var_004",  ["hash"]="0xE4DD94E2",["category"]="beltbuckle"},--216
 ----------------------------------- Gunbelts 90 ----------------------------------
-    []={["name"]="",                           ["hash"]="0x508E8391",["category"]="gunbelts"},--1
+    {hashname="CLOTHING_F_R1_GUNBELT_001_TINT_001",category_hashname="gunbelts",ped_type="female",is_multiplayer=true,category_hash=0x9B2C8B89,hash=0x5788DE94,hash_dec_signed=1468587668,category_hash_dec_signed=-1691579511},
+    {hashname="CLOTHING_F_R1_GUNBELT_001_TINT_002",category_hashname="gunbelts",ped_type="female",is_multiplayer=true,category_hash=0x9B2C8B89,hash=0xD7F05F6D,hash_dec_signed=-672112787,category_hash_dec_signed=-1691579511},
+    {hashname="CLOTHING_F_R1_GUNBELT_001_TINT_003",category_hashname="gunbelts",ped_type="female",is_multiplayer=true,category_hash=0x9B2C8B89,hash=0xC67CBC86,hash_dec_signed=-964903802,category_hash_dec_signed=-1691579511},
+    {hashname="CLOTHING_F_R1_GUNBELT_001_TINT_004",category_hashname="gunbelts",ped_type="female",is_multiplayer=true,category_hash=0x9B2C8B89,hash=0xB0CE912A,hash_dec_signed=-1328639702,category_hash_dec_signed=-1691579511},
+    {hashname="CLOTHING_F_R1_GUNBELT_001_TINT_005",category_hashname="gunbelts",ped_type="female",is_multiplayer=true,category_hash=0x9B2C8B89,hash=0xA31FF5CD,hash_dec_signed=-1558186547,category_hash_dec_signed=-1691579511},
+    {hashname="CLOTHING_F_R1_GUNBELT_001_TINT_006",category_hashname="gunbelts",ped_type="female",is_multiplayer=true,category_hash=0x9B2C8B89,hash=0x1F9BEEC7,hash_dec_signed=530312903,category_hash_dec_signed=-1691579511},
+    {hashname="CLOTHING_ITEM_F_GUNBELT_008_TINT_003",category_hashname="gunbelts",ped_type="female",is_multiplayer=true,category_hash=0x9B2C8B89,hash=0x1CD5613E,hash_dec_signed=483746110,category_hash_dec_signed=-1691579511},
+    {hashname="CLOTHING_ITEM_F_GUNBELT_302_TINT_001",category_hashname="gunbelts",ped_type="female",is_multiplayer=true,category_hash=0x9B2C8B89,hash=0x9AF4B083,hash_dec_signed=-1695240061,category_hash_dec_signed=-1691579511},
+    {hashname="CLOTHING_ITEM_F_GUNBELT_009_TINT_004",category_hashname="gunbelts",ped_type="female",is_multiplayer=true,category_hash=0x9B2C8B89,hash=0x0D1E5415,hash_dec_signed=220091413,category_hash_dec_signed=-1691579511},
+    []={["name"]="",                           ["hash"]="0x058E8391",["category"]="gunbelts"},--1
     []={["name"]="Cowboy_Buckle_00",           ["hash"]="0xCC6D55EE",["category"]="gunbelts"},--2
     []={["name"]="Pouches_chain_00",           ["hash"]="0x100A188C",["category"]="gunbelts"},--3
     []={["name"]="Pouches_chain_00",           ["hash"]="0x1ACDAE0F",["category"]="gunbelts"},--4
@@ -4140,7 +4144,7 @@ FemaleComp = {
     []={["name"]="Snek_00",                    ["hash"]="0xD8197F82",["category"]="gunbelts"},--37
     []={["name"]="Snek_00",                    ["hash"]="0x57E1FF05",["category"]="gunbelts"},--38
     []={["name"]="Snek_00",                    ["hash"]="0x449B5878",["category"]="gunbelts"},--39
-    []={["name"]="Snek_00",                    ["hash"]="0xF03E6DCB",["category"]="gunbelts"},--40
+    []={["name"]="Snek_00",                    ["hash"]="0x0F3E6DCB",["category"]="gunbelts"},--40
 	[]={["name"]="Snek_00",                    ["hash"]="0xDFC9B76A",["category"]="gunbelts"},--41
 	[]={["name"]="Snek_00",                    ["hash"]="0xE1D392F6",["category"]="gunbelts"},--42
 	[]={["name"]="Snek_00",                    ["hash"]="0xFD0BC966",["category"]="gunbelts"},--43
@@ -4157,7 +4161,7 @@ FemaleComp = {
 	[]={["name"]="Buckle_Bullets_Worn_002",    ["hash"]="0xAACC2A4B",["category"]="gunbelts"},--54
 	[]={["name"]="Buckle_Bullets_Worn_003",    ["hash"]="0xD0C27637",["category"]="gunbelts"},--55
 	[]={["name"]="Buckle_Bullets_Worn_004",    ["hash"]="0xA716A2E4",["category"]="gunbelts"},--56
-	[]={["name"]="Buckle_Bullets_Stamp_001",   ["hash"]="0xA00E0F5A",["category"]="gunbelts"},--57
+	[]={["name"]="Buckle_Bullets_Stamp_001",   ["hash"]="0x0A0E0F5A",["category"]="gunbelts"},--57
 	[]={["name"]="Buckle_Bullets_Stamp_002",   ["hash"]="0x2A845046",["category"]="gunbelts"},--58
 	[]={["name"]="Buckle_Bullets_Stamp_003",   ["hash"]="0x668FC85C",["category"]="gunbelts"},--59
 	[]={["name"]="Buckle_Bullets_Stamp_004",   ["hash"]="0x18FEAD3B",["category"]="gunbelts"},--60
@@ -4175,7 +4179,7 @@ FemaleComp = {
 	[]={["name"]="Studded_S_004",              ["hash"]="0xA53492F0",["category"]="gunbelts"},--72
 	[]={["name"]="Studded_S_00",               ["hash"]="0xE31F1584",["category"]="gunbelts"},--73
 	[]={["name"]="Studded_S_00",               ["hash"]="0x1EC38CCC",["category"]="gunbelts"},--74
-	[]={["name"]="Studded_S_00",               ["hash"]="0xE009EB59",["category"]="gunbelts"},--75
+	[]={["name"]="Studded_S_00",               ["hash"]="0x0E09EB59",["category"]="gunbelts"},--75
 	[]={["name"]="Studded_S_00",               ["hash"]="0x3B774633",["category"]="gunbelts"},--76
 	[]={["name"]="Braded_Rope_001",            ["hash"]="0xDF574FB6",["category"]="gunbelts"},--77
 	[]={["name"]="Braded_Rope_002",            ["hash"]="0xA88AE21A",["category"]="gunbelts"},--78
@@ -4189,32 +4193,20 @@ FemaleComp = {
 	[]={["name"]="Double_Buckle_001",          ["hash"]="0x4D2686CA",["category"]="gunbelts"},--86
 	[]={["name"]="Double_Buckle_002",          ["hash"]="0x9C922508",["category"]="gunbelts"},--87
 	[]={["name"]="Double_Buckle_003",          ["hash"]="0xEE2FC842",["category"]="gunbelts"},--88
-	[]={["name"]="Double_Buckle_004",          ["hash"]="0x30F4F3CC",["category"]="gunbelts"},--89
-	[]={["name"]="Circle_Clasp_00",            ["hash"]="0xE02E9081",["category"]="gunbelts"},--90
-	{hashname="CLOTHING_F_R1_GUNBELT_000_TINT_005",category_hashname="gunbelts",ped_type="female",is_multiplayer=true,category_hash=0x9B2C8B89,hash=0x0F3E6DCB,hash_dec_signed=255749579,category_hash_dec_signed=-1691579511},
-	{hashname="CLOTHING_F_R1_GUNBELT_001_TINT_001",category_hashname="gunbelts",ped_type="female",is_multiplayer=true,category_hash=0x9B2C8B89,hash=0x5788DE94,hash_dec_signed=1468587668,category_hash_dec_signed=-1691579511},
-	{hashname="CLOTHING_F_R1_GUNBELT_001_TINT_002",category_hashname="gunbelts",ped_type="female",is_multiplayer=true,category_hash=0x9B2C8B89,hash=0xD7F05F6D,hash_dec_signed=-672112787,category_hash_dec_signed=-1691579511},
-	{hashname="CLOTHING_F_R1_GUNBELT_001_TINT_003",category_hashname="gunbelts",ped_type="female",is_multiplayer=true,category_hash=0x9B2C8B89,hash=0xC67CBC86,hash_dec_signed=-964903802,category_hash_dec_signed=-1691579511},
-	{hashname="CLOTHING_F_R1_GUNBELT_001_TINT_004",category_hashname="gunbelts",ped_type="female",is_multiplayer=true,category_hash=0x9B2C8B89,hash=0xB0CE912A,hash_dec_signed=-1328639702,category_hash_dec_signed=-1691579511},
-	{hashname="CLOTHING_F_R1_GUNBELT_001_TINT_005",category_hashname="gunbelts",ped_type="female",is_multiplayer=true,category_hash=0x9B2C8B89,hash=0xA31FF5CD,hash_dec_signed=-1558186547,category_hash_dec_signed=-1691579511},
-	{hashname="CLOTHING_F_R1_GUNBELT_001_TINT_006",category_hashname="gunbelts",ped_type="female",is_multiplayer=true,category_hash=0x9B2C8B89,hash=0x1F9BEEC7,hash_dec_signed=530312903,category_hash_dec_signed=-1691579511},
-	{hashname="CLOTHING_F_R2_GUNBELT_000_TINT_003",category_hashname="gunbelts",ped_type="female",is_multiplayer=true,category_hash=0x9B2C8B89,hash=0x058E8391,hash_dec_signed=93225873,category_hash_dec_signed=-1691579511},
-	{hashname="CLOTHING_ITEM_F_GUNBELT_003_TINT_001",category_hashname="gunbelts",ped_type="female",is_multiplayer=true,category_hash=0x9B2C8B89,hash=0x0A0E0F5A,hash_dec_signed=168693594,category_hash_dec_signed=-1691579511},
-	{hashname="CLOTHING_ITEM_F_GUNBELT_007_TINT_003",category_hashname="gunbelts",ped_type="female",is_multiplayer=true,category_hash=0x9B2C8B89,hash=0x0E09EB59,hash_dec_signed=235531097,category_hash_dec_signed=-1691579511},
-	{hashname="CLOTHING_ITEM_F_GUNBELT_009_TINT_004",category_hashname="gunbelts",ped_type="female",is_multiplayer=true,category_hash=0x9B2C8B89,hash=0x0D1E5415,hash_dec_signed=220091413,category_hash_dec_signed=-1691579511},
-	{hashname="CLOTHING_ITEM_F_GUNBELT_015_TINT_004",category_hashname="gunbelts",ped_type="female",is_multiplayer=true,category_hash=0x9B2C8B89,hash=0x03F4F3CC,hash_dec_signed=66384844,category_hash_dec_signed=-1691579511},
-	{hashname="CLOTHING_ITEM_F_GUNBELT_302_TINT_001",category_hashname="gunbelts",ped_type="female",is_multiplayer=true,category_hash=0x9B2C8B89,hash=0x9AF4B083,hash_dec_signed=-1695240061,category_hash_dec_signed=-1691579511},
-	{hashname="CLOTHING_ITEM_F_STDPOLICE_GUNBELT_000",category_hashname="gunbelts",ped_type="female",is_multiplayer=true,category_hash=0x9B2C8B89,hash=0x0E2E9081,hash_dec_signed=237932673,category_hash_dec_signed=-1691579511},
-	{hashname="CLOTHING_ITEM_F_GUNBELT_008_TINT_004",category_hashname="gunbelts",ped_type="female",is_multiplayer=true,category_hash=0x9B2C8B89,hash=0x09933ABA,hash_dec_signed=160643770,category_hash_dec_signed=-1691579511},
+	[]={["name"]="Double_Buckle_004",          ["hash"]="0x03F4F3CC",["category"]="gunbelts"},--89
+	[]={["name"]="Circle_Clasp_00",            ["hash"]="0x0E2E9081",["category"]="gunbelts"},--90
 
 ----------------------------------- Spurs - 122 ---------------------------------------
-{hashname="CLOTHING_ITEM_F_SPURS_002_TINT_009",category_hashname="boot_accessories",ped_type="female",is_multiplayer=true,category_hash=0x18729F39,hash=0x0439938C,hash_dec_signed=70882188,category_hash_dec_signed=410165049},
-{hashname="CLOTHING_ITEM_F_SPURS_003_TINT_003",category_hashname="boot_accessories",ped_type="female",is_multiplayer=true,category_hash=0x18729F39,hash=0x0B757E20,hash_dec_signed=192249376,category_hash_dec_signed=410165049},
-{hashname="CLOTHING_ITEM_F_SPURS_004_TINT_007",category_hashname="boot_accessories",ped_type="female",is_multiplayer=true,category_hash=0x18729F39,hash=0x0D68E261,hash_dec_signed=224977505,category_hash_dec_signed=410165049},
-{hashname="",category_hashname="boot_accessories",ped_type="female",is_multiplayer=true,category_hash=0x18729F39,hash=0x0F40D0A3,hash_dec_signed=255905955,category_hash_dec_signed=410165049},
-
-    []={["name"]="Nil",                         ["hash"]="0xF040D0A3",["category"]="spurs"},--1
-    []={["name"]="Empty",                       ["hash"]="0xBBD7488A",["category"]="spurs"},--2
+  
+    {hashname="",category_hashname="boot_accessories",ped_type="female",is_multiplayer=true,category_hash=0x18729F39,hash=0x90D2A025,hash_dec_signed=-1865244635,category_hash_dec_signed=410165049},
+    {hashname="",category_hashname="boot_accessories",ped_type="female",is_multiplayer=true,category_hash=0x18729F39,hash=0x95E6AA19,hash_dec_signed=-1780045287,category_hash_dec_signed=410165049},
+    {hashname="",category_hashname="boot_accessories",ped_type="female",is_multiplayer=true,category_hash=0x18729F39,hash=0xBE3BFAF7,hash_dec_signed=-1103365385,category_hash_dec_signed=410165049},
+    {hashname="",category_hashname="boot_accessories",ped_type="female",is_multiplayer=true,category_hash=0x18729F39,hash=0xD0829F84,hash_dec_signed=-796745852,category_hash_dec_signed=410165049},
+    {hashname="",category_hashname="boot_accessories",ped_type="female",is_multiplayer=true,category_hash=0x18729F39,hash=0xDFBD3DF9,hash_dec_signed=-541245959,category_hash_dec_signed=410165049},
+    {hashname="",category_hashname="boot_accessories",ped_type="female",is_multiplayer=true,category_hash=0x18729F39,hash=0xEC10569F,hash_dec_signed=-334473569,category_hash_dec_signed=410165049},
+    {hashname="",category_hashname="boot_accessories",ped_type="female",is_multiplayer=true,category_hash=0x18729F39,hash=0xF9A27536,hash_dec_signed=-106793674,category_hash_dec_signed=410165049},
+    []={["name"]="",                         ["hash"]="0xF040D0A3",["category"]="spurs"},--1
+    []={["name"]="",                       ["hash"]="0xBBD7488A",["category"]="spurs"},--2
     []={["name"]="",                            ["hash"]="0x575BD804",["category"]="spurs"},--3
     []={["name"]="",                            ["hash"]="0x215AEE8C",["category"]="spurs"},--4
     []={["name"]="seasonal_004_spurs_var_001",  ["hash"]="0xBF4C87CB",["category"]="spurs"},--5
@@ -4335,15 +4327,69 @@ FemaleComp = {
     []={["name"]="spurs_011_tint_008",          ["hash"]="0x2B9ED515",["category"]="spurs"},--120
     []={["name"]="spurs_011_tint_009",          ["hash"]="0x60563E83",["category"]="spurs"},--121
 	[]={["name"]="spurs_011_tint_010",          ["hash"]="0x70BFDE6A",["category"]="spurs"},--122
-	{hashname="",category_hashname="boot_accessories",ped_type="female",is_multiplayer=true,category_hash=0x18729F39,hash=0x90D2A025,hash_dec_signed=-1865244635,category_hash_dec_signed=410165049},
-	{hashname="",category_hashname="boot_accessories",ped_type="female",is_multiplayer=true,category_hash=0x18729F39,hash=0x95E6AA19,hash_dec_signed=-1780045287,category_hash_dec_signed=410165049},
-	{hashname="",category_hashname="boot_accessories",ped_type="female",is_multiplayer=true,category_hash=0x18729F39,hash=0xBE3BFAF7,hash_dec_signed=-1103365385,category_hash_dec_signed=410165049},
-	{hashname="",category_hashname="boot_accessories",ped_type="female",is_multiplayer=true,category_hash=0x18729F39,hash=0xD0829F84,hash_dec_signed=-796745852,category_hash_dec_signed=410165049},
-	{hashname="",category_hashname="boot_accessories",ped_type="female",is_multiplayer=true,category_hash=0x18729F39,hash=0xDFBD3DF9,hash_dec_signed=-541245959,category_hash_dec_signed=410165049},
-	{hashname="",category_hashname="boot_accessories",ped_type="female",is_multiplayer=true,category_hash=0x18729F39,hash=0xEC10569F,hash_dec_signed=-334473569,category_hash_dec_signed=410165049},
-	{hashname="",category_hashname="boot_accessories",ped_type="female",is_multiplayer=true,category_hash=0x18729F39,hash=0xF9A27536,hash_dec_signed=-106793674,category_hash_dec_signed=410165049},
 
 ---------------------------- PANTS - 412  ---------------------------------------------
+    {hashname="",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0xFE97037B,hash_dec_signed=-23657605,category_hash_dec_signed=491541130},
+    {hashname="",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0xD4187023,hash_dec_signed=-736595933,category_hash_dec_signed=491541130},
+    {hashname="",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0xC93998C1,hash_dec_signed=-918972223,category_hash_dec_signed=491541130},
+    {hashname="",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x71CBE9E3,hash_dec_signed=1909189091,category_hash_dec_signed=491541130},
+    {hashname="",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x6811D66F,hash_dec_signed=1745999471,category_hash_dec_signed=491541130},
+    {hashname="",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x1F0A4461,hash_dec_signed=520766561,category_hash_dec_signed=491541130},
+    {hashname="",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x0FE647CC,hash_dec_signed=266749900,category_hash_dec_signed=491541130},
+    {hashname="",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x0E85F9A1,hash_dec_signed=243661217,category_hash_dec_signed=491541130},
+    {hashname="",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x0D9E5DC5,hash_dec_signed=228482501,category_hash_dec_signed=491541130},
+    {hashname="",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x0CFDA048,hash_dec_signed=217948232,category_hash_dec_signed=491541130},
+    {hashname="",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x0C2DC23C,hash_dec_signed=204325436,category_hash_dec_signed=491541130},
+    {hashname="",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x0B09B1CC,hash_dec_signed=185184716,category_hash_dec_signed=491541130},
+    {hashname="",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x087E0769,hash_dec_signed=142477161,category_hash_dec_signed=491541130},
+    {hashname="",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x087119F8,hash_dec_signed=141629944,category_hash_dec_signed=491541130},
+    {hashname="",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x05D8B596,hash_dec_signed=98088342,category_hash_dec_signed=491541130},
+    {hashname="",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x0349085A,hash_dec_signed=55117914,category_hash_dec_signed=491541130},
+    {hashname="",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x0322139F,hash_dec_signed=52564895,category_hash_dec_signed=491541130},
+    {hashname="",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x023FD210,hash_dec_signed=37736976,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_UNDERWEAR_001_TINT_004",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x53B95CBA,hash_dec_signed=1404656826,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_UNDERWEAR_000_TINT_006",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x065E6F27,hash_dec_signed=106852135,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_400_TINT_010",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x2868ACD3,hash_dec_signed=677948627,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_400_TINT_009",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0xB65BCA1B,hash_dec_signed=-1235498469,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_400_TINT_008",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x9C2995B7,hash_dec_signed=-1674996297,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_400_TINT_008",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x9C2995B7,hash_dec_signed=-1674996297,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_400_TINT_007",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0xAAD3330A,hash_dec_signed=-1428999414,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_400_TINT_006",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x8077DE5C,hash_dec_signed=-2139627940,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_400_TINT_005",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x8D8A7881,hash_dec_signed=-1920305023,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_400_TINT_004",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x5F3A9BE2,hash_dec_signed=1597676514,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_400_TINT_003",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x6217A19C,hash_dec_signed=1645715868,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_400_TINT_002",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x37BE4CEA,hash_dec_signed=935218410,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_400_TINT_001",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x280AAD7F,hash_dec_signed=671788415,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_308_TINT_001",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x70C67227,hash_dec_signed=1892053543,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_307_TINT_010",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x1EC30917,hash_dec_signed=516098327,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_307_TINT_009",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x231D150F,hash_dec_signed=589108495,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_307_TINT_008",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x34EF38B3,hash_dec_signed=888092851,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_307_TINT_007",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x415E5191,hash_dec_signed=1096700305,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_307_TINT_006",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x531BF50C,hash_dec_signed=1394341132,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_307_TINT_005",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x64E1189A,hash_dec_signed=1692473498,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_307_TINT_004",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x6A8623E4,hash_dec_signed=1787175908,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_307_TINT_003",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x7A0BC2EF,hash_dec_signed=2047591151,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_307_TINT_002",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x8C556782,hash_dec_signed=-1940559998,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_307_TINT_001",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x9D7689C4,hash_dec_signed=-1653175868,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_304_TINT_009",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x0B1ED095,hash_dec_signed=186568853,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_303_TINT_007",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x945A8CD6,hash_dec_signed=-1806005034,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_302_TINT_009",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x06C279B3,hash_dec_signed=113408435,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_302_TINT_007",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x0C260482,hash_dec_signed=203818114,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_302_TINT_004",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x02DB71F1,hash_dec_signed=47935985,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_301_TINT_008",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x01CF58C7,hash_dec_signed=30365895,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_301_TINT_002",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x02AC5A8D,hash_dec_signed=44849805,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_201_TINT_003",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x0CC26DE9,hash_dec_signed=214068713,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_015_TINT_002",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x0B3C55D0,hash_dec_signed=188503504,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_014_TINT_007",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x0A1B5349,hash_dec_signed=169562953,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_014_TINT_001",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x0D03D926,hash_dec_signed=218356006,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_008_TINT_016",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x025DFF55,hash_dec_signed=39714645,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_005_TINT_005",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x09D35798,hash_dec_signed=164845464,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_004_TINT_010",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x0A750034,hash_dec_signed=175439924,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_004_TINT_005",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x0E1208D6,hash_dec_signed=236062934,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_003_TINT_003",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x04EAFECB,hash_dec_signed=82509515,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_PANTS_000_TINT_003",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x06FB0266,hash_dec_signed=117113446,category_hash_dec_signed=491541130},
+    {hashname="CLOTHING_ITEM_F_OVERALLS_002_TINT_007",category_hashname="pants",ped_type="female",is_multiplayer=true,category_hash=0x1D4C528A,hash=0x094443C8,hash_dec_signed=155468744,category_hash_dec_signed=491541130},
+
 	[]={["name"]="Nil",                         ["hash"]="1",["category"]="pants"},--1
 	[]={["name"]="built_in_chaps_00",           ["hash"]="0x9610F921",["category"]="pants"},--2
 	[]={["name"]="SEASONAL_000_PANTS_000",      ["hash"]="0xFD3A5464",["category"]="pants"},--3
@@ -4759,12 +4805,7 @@ FemaleComp = {
 	[]={["name"]="sash_front_00",               ["hash"]="0x5810CD8E",["category"]="pants"},--411
 	[]={["name"]="sash_front_00",               ["hash"]="0x73E88545",["category"]="pants"},--412
 ------------------------------- CHAPS - 65 ------------------------------------------------
-{hashname="CLOTHING_ITEM_F_CHAPS_001_TINT_007",category_hashname="chaps",ped_type="female",is_multiplayer=true,category_hash=0x3107499B,hash=0x0C92C6EA,hash_dec_signed=210945770,category_hash_dec_signed=822561179},
-{hashname="CLOTHING_ITEM_F_CHAPS_002_TINT_005",category_hashname="chaps",ped_type="female",is_multiplayer=true,category_hash=0x3107499B,hash=0x0ACFD0E9,hash_dec_signed=181391593,category_hash_dec_signed=822561179},
-{hashname="CLOTHING_ITEM_F_CHAPS_004_TINT_008",category_hashname="chaps",ped_type="female",is_multiplayer=true,category_hash=0x3107499B,hash=0x0ED78E2F,hash_dec_signed=249007663,category_hash_dec_signed=822561179},
-{hashname="CLOTHING_ITEM_F_CHAPS_301_TINT_001",category_hashname="chaps",ped_type="female",is_multiplayer=true,category_hash=0x3107499B,hash=0xC24F0FDF,hash_dec_signed=-1035005985,category_hash_dec_signed=822561179},
-
-	[]={["name"]="Nil",                         ["hash"]="0x0A1A8825",["category"]="chaps"},--1
+	[]={["name"]="",                         ["hash"]="0x0A1A8825",["category"]="chaps"},--1
 	[]={["name"]="SEASONAL_001_CHAPS_000",      ["hash"]="0x0D94034C",["category"]="chaps"},--2
 	[]={["name"]="",                            ["hash"]="0xDE2AD562",["category"]="chaps"},--3
     []={["name"]="chaps_000_tint_001",          ["hash"]="0x9C254455",["category"]="chaps"},--4
@@ -4955,6 +4996,7 @@ FemaleComp = {
 	[]={["name"]="HEAD_028_V_005",              ["hash"]="0x9C879729",["category"]="heads"},
 	[]={["name"]="HEAD_028_V_006",              ["hash"]="0xC65BEAD1",["category"]="heads"},	
 -------------------------------- SPATS - 133 ---------------------------------------
+
     []={["name"]="Nil",                         ["hash"]="0x067E8D91",["category"]="spats"},--1
 	[]={["name"]="cross_coin_00",               ["hash"]="0x6343A959",["category"]="spats"},--2
 	[]={["name"]="cross_coin_00",               ["hash"]="0x0C597B86",["category"]="spats"},--3
@@ -5856,36 +5898,13 @@ FemaleComp = {
     []={["name"]="BODIES_LOWER_005_V_004",        ["hash"]="0x1684BC22",["category"]="legs"},
     []={["name"]="BODIES_LOWER_005_V_005",        ["hash"]="0x04BA188D",["category"]="legs"},
 []={["name"]="BODIES_LOWER_005_V_006",        ["hash"]="0xF6877C28",["category"]="legs"},
- 
-{hashname="",category_hashname="hair",ped_type="female",is_multiplayer=true,category_hash=0x864B03AE,hash=0x0D2836E7,hash_dec_signed=220739303,category_hash_dec_signed=-2041904210},
-{hashname="",category_hashname="hair",ped_type="female",is_multiplayer=true,category_hash=0x864B03AE,hash=0x17CAC1E4,hash_dec_signed=399163876,category_hash_dec_signed=-2041904210},
-{hashname="",category_hashname="hair",ped_type="female",is_multiplayer=true,category_hash=0x864B03AE,hash=0x22C9B060,hash_dec_signed=583643232,category_hash_dec_signed=-2041904210},
-{hashname="",category_hashname="hair",ped_type="female",is_multiplayer=true,category_hash=0x864B03AE,hash=0x2B4270E8,hash_dec_signed=725774568,category_hash_dec_signed=-2041904210},
-{hashname="",category_hashname="hair",ped_type="female",is_multiplayer=true,category_hash=0x864B03AE,hash=0x357B3AAA,hash_dec_signed=897268394,category_hash_dec_signed=-2041904210},
-{hashname="",category_hashname="hair",ped_type="female",is_multiplayer=true,category_hash=0x864B03AE,hash=0x64963AFB,hash_dec_signed=1687567099,category_hash_dec_signed=-2041904210},
-{hashname="",category_hashname="hair",ped_type="female",is_multiplayer=true,category_hash=0x864B03AE,hash=0x64963AFB,hash_dec_signed=1687567099,category_hash_dec_signed=-2041904210},
-{hashname="",category_hashname="hair",ped_type="female",is_multiplayer=true,category_hash=0x864B03AE,hash=0x75AB5B78,hash_dec_signed=1974164344,category_hash_dec_signed=-2041904210},
-{hashname="",category_hashname="hair",ped_type="female",is_multiplayer=true,category_hash=0x864B03AE,hash=0x857F9EFC,hash_dec_signed=-2055233796,category_hash_dec_signed=-2041904210},
-{hashname="",category_hashname="hair",ped_type="female",is_multiplayer=true,category_hash=0x864B03AE,hash=0xA37C89AF,hash_dec_signed=-1552119377,category_hash_dec_signed=-2041904210},
-{hashname="",category_hashname="hair",ped_type="female",is_multiplayer=true,category_hash=0x864B03AE,hash=0xA72B45E0,hash_dec_signed=-1490336288,category_hash_dec_signed=-2041904210},
-{hashname="",category_hashname="hair",ped_type="female",is_multiplayer=true,category_hash=0x864B03AE,hash=0xB1B8D6FB,hash_dec_signed=-1313286405,category_hash_dec_signed=-2041904210},
-{hashname="",category_hashname="hair",ped_type="female",is_multiplayer=true,category_hash=0x864B03AE,hash=0xB6ED8DFE,hash_dec_signed=-1225945602,category_hash_dec_signed=-2041904210},
-{hashname="",category_hashname="hair",ped_type="female",is_multiplayer=true,category_hash=0x864B03AE,hash=0xC13E39C2,hash_dec_signed=-1052886590,category_hash_dec_signed=-2041904210},
-{hashname="",category_hashname="hair",ped_type="female",is_multiplayer=true,category_hash=0x864B03AE,hash=0xC7A47B1C,hash_dec_signed=-945521892,category_hash_dec_signed=-2041904210},
-{hashname="",category_hashname="hair",ped_type="female",is_multiplayer=true,category_hash=0x864B03AE,hash=0xC991BABE,hash_dec_signed=-913196354,category_hash_dec_signed=-2041904210},
-{hashname="",category_hashname="hair",ped_type="female",is_multiplayer=true,category_hash=0x864B03AE,hash=0xCC5B9B97,hash_dec_signed=-866411625,category_hash_dec_signed=-2041904210},
-{hashname="",category_hashname="hair",ped_type="female",is_multiplayer=true,category_hash=0x864B03AE,hash=0xD40C6D7B,hash_dec_signed=-737383045,category_hash_dec_signed=-2041904210},
-{hashname="",category_hashname="hair",ped_type="female",is_multiplayer=true,category_hash=0x864B03AE,hash=0xD703604A,hash_dec_signed=-687644598,category_hash_dec_signed=-2041904210},
-{hashname="",category_hashname="hair",ped_type="female",is_multiplayer=true,category_hash=0x864B03AE,hash=0x71BF8D56,hash_dec_signed=1908378966,category_hash_dec_signed=-2041904210},
-{hashname="",category_hashname="hair",ped_type="female",is_multiplayer=true,category_hash=0x864B03AE,hash=0x8F4328D0,hash_dec_signed=-1891424048,category_hash_dec_signed=-2041904210},
-{hashname="",category_hashname="hair",ped_type="female",is_multiplayer=true,category_hash=0x864B03AE,hash=0xB7772FA8,hash_dec_signed=-1216925784,category_hash_dec_signed=-2041904210},
-
-[]={["name"]="Nil",                           ["hash"]="0x047808C2",["category"]="hair"},
+    []={["name"]="Nil",                           ["hash"]="0x047808C2",["category"]="hair"},
     []={["name"]="",                              ["hash"]="0x07F314A8",["category"]="hair"},
     []={["name"]="",                              ["hash"]="0x089EB7E7",["category"]="hair"},
     []={["name"]="",                              ["hash"]="0x0C0E014C",["category"]="hair"},
     []={["name"]="",                              ["hash"]="0x1A6C9209",["category"]="hair"},
     []={["name"]="",                              ["hash"]="0x20B72A9E",["category"]="hair"},
+    []={["name"]="",                              ["hash"]="0x2A640582",["category"]="hair"},
     []={["name"]="",                              ["hash"]="0x2B2B4268",["category"]="hair"},
     []={["name"]="",                              ["hash"]="0x3765BD81",["category"]="hair"},
     []={["name"]="",                              ["hash"]="0x38D22391",["category"]="hair"},
@@ -6379,38 +6398,6 @@ FemaleComp = {
     []={["name"]="HAIR_027_straw_blonde",         ["hash"]="0xDF422FFD",["category"]="hair"},  
 	[]={["name"]="HAIR_027_uncle_grey",           ["hash"]="0xE1B6169B",["category"]="hair"},      
 	
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_001_TINT_001",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0xA5941B67,hash_dec_signed=-1517020313,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_001_TINT_002",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0xB7DDBFFA,hash_dec_signed=-1210204166,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_001_TINT_003",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0xC953E2E6,hash_dec_signed=-917249306,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_001_TINT_004",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0x316A3305,hash_dec_signed=829043461,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_001_TINT_005",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0x4360D6F2,hash_dec_signed=1130419954,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_001_TINT_006",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0x5526FA7E,hash_dec_signed=1428617854,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_001_TINT_007",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0x64D499DD,hash_dec_signed=1691654621,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_001_TINT_008",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0xE8E0A1F3,hash_dec_signed=-387931661,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_001_TINT_009",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0xFA894544,hash_dec_signed=-91667132,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_001_TINT_010",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0x7EBB5102,hash_dec_signed=2126205186,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_002_TINT_001",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0x27060B3C,hash_dec_signed=654707516,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_002_TINT_002",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0x5703EB37,hash_dec_signed=1459874615,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_002_TINT_003",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0x44CDC6CB,hash_dec_signed=1154336459,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_002_TINT_004",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0x7296A25C,hash_dec_signed=1922474588,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_002_TINT_005",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0x6E4999C2,hash_dec_signed=1850317250,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_002_TINT_006",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0x7DF33909,hash_dec_signed=2113091849,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_002_TINT_007",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0x6C4915B5,hash_dec_signed=1816729013,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_002_TINT_008",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0x9987F032,hash_dec_signed=-1719144398,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_002_TINT_009",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0xB7B72C90,hash_dec_signed=-1212732272,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_002_TINT_010",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0x548C6750,hash_dec_signed=1418487632,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_003_TINT_001",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0xEEE325B0,hash_dec_signed=-287103568,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_003_TINT_002",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0x37F0B7F6,hash_dec_signed=938522614,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_003_TINT_003",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0x4A16DC42,hash_dec_signed=1243012162,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_003_TINT_004",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0x94907138,hash_dec_signed=-1802473160,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_003_TINT_005",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0x26C4159D,hash_dec_signed=650384797,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_003_TINT_006",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0x7104AA21,hash_dec_signed=1896131105,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_003_TINT_007",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0x835E4ED4,hash_dec_signed=-2090971436,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_003_TINT_008",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0xC9C9DBAA,hash_dec_signed=-909517910,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_003_TINT_009",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0xDB787F07,hash_dec_signed=-612860153,category_hash_dec_signed=-1903910230},
-	{hashname="CLOTHING_ITEM_F_HAIR_ACCS_003_TINT_010",category_hashname="hair_accessories",ped_type="female",is_multiplayer=true,category_hash=0x8E84A2AA,hash=0x4F6FE7F8,hash_dec_signed=1332733944,category_hash_dec_signed=-1903910230},
-
-
 []={["name"]="Nil",                           ["hash"]="0x42247599",["category"]="satchels"}, 
 	[]={["name"]="",                              ["hash"]="0x7E2D016B",["category"]="satchels"}, 
     []={["name"]="satchel_001",                   ["hash"]="0xFCAF241B",["category"]="satchels"},  
@@ -6422,6 +6409,14 @@ FemaleComp = {
 	[]={["name"]="TEETH_005",                     ["hash"]="0x20CC5B30",["category"]="teeth"},
     []={["name"]="TEETH_006",                     ["hash"]="0x322BFDEF",["category"]="teeth"},  
 ----------------------------- SKIRTS - 135  ---------------------------------------
+{hashname="",category_hashname="skirts",ped_type="female",is_multiplayer=true,category_hash=0xA0E3AB7F,hash=0x0C26F349,hash_dec_signed=203879241,category_hash_dec_signed=-1595692161},
+{hashname="",category_hashname="skirts",ped_type="female",is_multiplayer=true,category_hash=0xA0E3AB7F,hash=0x08539EFA,hash_dec_signed=139697914,category_hash_dec_signed=-1595692161},
+{hashname="",category_hashname="skirts",ped_type="female",is_multiplayer=true,category_hash=0xA0E3AB7F,hash=0x02302B54,hash_dec_signed=36711252,category_hash_dec_signed=-1595692161},
+{hashname="CLOTHING_ITEM_F_SKIRT_200_TINT_005",category_hashname="skirts",ped_type="female",is_multiplayer=true,category_hash=0xA0E3AB7F,hash=0x028C49CB,hash_dec_signed=42748363,category_hash_dec_signed=-1595692161},
+{hashname="CLOTHING_ITEM_F_SKIRT_003_TINT_005",category_hashname="skirts",ped_type="female",is_multiplayer=true,category_hash=0xA0E3AB7F,hash=0x053C636A,hash_dec_signed=87843690,category_hash_dec_signed=-1595692161},
+{hashname="CLOTHING_ITEM_F_SKIRT_001_TINT_008",category_hashname="skirts",ped_type="female",is_multiplayer=true,category_hash=0xA0E3AB7F,hash=0x086DB506,hash_dec_signed=141407494,category_hash_dec_signed=-1595692161},
+{hashname="CLOTHING_ITEM_F_SKIRT_000_TINT_002",category_hashname="skirts",ped_type="female",is_multiplayer=true,category_hash=0xA0E3AB7F,hash=0x049FEA7A,hash_dec_signed=77589114,category_hash_dec_signed=-1595692161},
+
     []={["name"]="Nil",                           ["hash"]="0x00481D0F",["category"]="skirts"},--1
     []={["name"]="Satin_001",                     ["hash"]="0x028B08F2",["category"]="skirts"},--2
     []={["name"]="Satin_002",                     ["hash"]="0x0AC92AF6",["category"]="skirts"},--3
