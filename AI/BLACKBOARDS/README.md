@@ -9,7 +9,7 @@ Visible changes can only be seen with few "script" blackboards. It seems Rocksta
 	-- to cancel blackboard float use value 0.0
 	-- last parameter is duration (in frames, -1 = forever)
 	Citizen.InvokeNative(0x437C08DB4FEBE2BD, PlayerPedId(), "MetalDetectorDetectionValue", 1.0, -1)   -- the higher the value, the more metal detector vibrates
-	
+
 
 	-- SET_PED_BLACKBOARD_BOOL (visible changes only for "script" blackboards)
 	-- last parameter is duration (in frames, -1 = forever)
@@ -20,11 +20,16 @@ Visible changes can only be seen with few "script" blackboards. It seems Rocksta
 	-- last parameter is duration (in frames, -1 = forever)
 	Citizen.InvokeNative(0xA762C9D6CF165E0D, PlayerPedId(), "BodyPartChained", "Legs", 5000)  -- apply "legschained" walkstyle for 5000 frames (~50 seconds)
 
+	-- SET_PED_BLACKBOARD_INT
+	-- last parameter is duration (in frames, -1 = forever)
+	-- in this example the native N_0x2e036f0480b8bf02() returns the amount of time elapsed since joining game
+	Citizen.InvokeNative(0x5F53010C4C3F6BAF, PlayerPedId(), "prsn_ilo_time", N_0x2e036f0480b8bf02(), -1)  --
+
 ```
 
 <h2>Some known Blackboard Values.</h2>
 
-Blackboard type | Blackboard section | Blackboard name | Blackboard range (or variants)
+-Blackboard type | Blackboard section | Blackboard name | Blackboard range (or variants)
 ----------- | -------------------------- |---------- | -------
 float | script | Cautious | from 0.1 till 1.0
 float | script | Stealth | from 0.1 till 1.0
@@ -32,7 +37,8 @@ float | script | Bewildered | from 0.1 till 1.0
 float | script | MetalDetectorDetectionValue | from 0.1 till 1.0
 float | script | Sick | from 0.7 till 1.0
 float | script | Stealth | from 0.1 till 1.0
-bool | script | Bewildered | 
+bool | script | Bewildered |
+bool | script | blockHeadTailAdditives | 
 bool | script | CarryBagAndersLeft | 
 bool | script | CarryBagAndersRight | 
 bool | script | CarryFishingpole | 
@@ -41,11 +47,15 @@ bool | script | Cold_Empty_Stamina |
 bool | script | Cold_Low_Stamina | 
 bool | script | Cold_Stamina | 
 bool | script | Crafting_SatchelUpgrade | 
+bool | script | DoHerdSmack | 
+bool | script | DoHerdWhip | 
 bool | script | DrunkStumbleActive | 
 bool | script | FishingRodInLeftHand | 
 bool | script | FishingRodInRightHand | 
 bool | script | ForceHandsOnBelt | 
 bool | script | FreeRoamSpawn | 
+bool | script | GRAYOUT_ITEM_DROP | 
+bool | script | GRAYOUT_ITEM_USE | 
 bool | script | HandsOnBelt | 
 bool | script | Handsup | 
 bool | script | in_a_dress | 
@@ -82,6 +92,7 @@ bool | script | PlayLeadin |
 bool | script | PlayUnequipGlovesFidget | 
 bool | script | PlayUnequipHatFidget | 
 bool | script | PutDownManure | 
+bool | script | SadPassenger | 
 bool | script | SpawnMissionIntro | 
 bool | script | Urgent_Look_Back | 
 bool | script | Urgent_Look_Left | 
@@ -102,6 +113,7 @@ bool |  | IsAiming |
 bool |  | IsAimingMounted |
 bool |  | IsClimbExit |
 bool |  | IsDoingItemInteraction |
+bool |  | IsDrunk | 
 bool |  | IsEnteringCover |
 bool |  | IsFocusTarget |
 bool |  | IsInInterior |
@@ -147,6 +159,8 @@ float |  | rain | from 0.1 till 1.0
 bool |  | BLOCK_CAMERA_DRUNK_SLUMP_BEHAVIOUR | 
 bool |  | BLOCK_COFFEE_DISCARD_PROMPT | 
 bool |  | BLOCK_COFFEE_DRINK_PROMPT | 
+bool |  | BLOCK_STEW_DROP_PROMPT | 
+bool |  | BLOCK_STEW_EAT_PROMPT | 
 bool |  | BOOK_BLOCK_PAGE_NEXT | 
 bool |  | BOOK_BLOCK_PAGE_PREV | 
 bool |  | DoAFidget |
@@ -176,6 +190,10 @@ bool |  | isInspectingGround |
 bool |  | isLowDeadEyeCoreActive | 
 bool |  | isLowHealthCoreActive | 
 bool |  | isLowStaminaCoreActive | 
+bool |  | JOURNAL_BLOCK_CHAPTER_NEXT | 
+bool |  | JOURNAL_BLOCK_CHAPTER_PREV | 
+bool |  | JOURNAL_BLOCK_PAGE_NEXT | 
+bool |  | JOURNAL_BLOCK_PAGE_PREV | 
 bool |  | Loco::UseActionMode | 
 bool |  | MP_CATALOGUE_BLOCK_PAGE_NEXT | 
 bool |  | MP_CATALOGUE_BLOCK_PAGE_PREV | 
@@ -200,4 +218,4 @@ string |  | StrafeType | Aiming<br>Fishing<br>melee<br>OffsetAiming
 string |  | typeOfGetUp | front<br>rear 
 string |  | WeatherType | blizzard<br>drizzle<br>groundblizzard<br>highpressure<br>hurricane<br>rain<br>sandstorm<br>shower<br>sleet<br>snow<br>snowlight<br>sunny<br>thunderstorm<br>whiteout
 string |  | MoodName | MoodAction<br>MoodAgitated<br>MoodAgitatedLow<br>MoodAngry<br>MoodBlizzard<br>MoodBrave<br>MoodCalmHorse<br>MoodCarryLarge<br>MoodCautious<br>MoodCold<br>MoodCombatMedium<br>MoodCombatMild<br>MoodConfused<br>MoodCower<br>MoodCurious<br>MoodDisgust<br>MoodDrunkExtreme<br>MoodDrunkMedium<br>MoodDrunkMild<br>MoodExertionextreme<br>MoodExertionmedium<br>MoodExertionmild<br>MoodExhausted<br>MoodFoliage<br>MoodHappy<br>MoodInjuredExtreme<br>MoodInjuredMedium<br>MoodInjuredmild<br>MoodIntimidated<br>MoodInvestigate<br>MoodLowDeadeye<br>MoodLowHealth<br>MoodLowStamina<br>MoodNervous<br>MoodNormal<br>MoodNormalCanter<br>MoodNormalSick<br>MoodNormalTrot<br>MoodOnFire<br>MoodPanic<br>MoodRiding<br>MoodRidingRelaxed<br>MoodRun<br>MoodSad<br>MoodScared<br>MoodSearchHigh<br>MoodSearchLow<br>MoodSeductive<br>MoodShocked<br>MoodSlide<br>MoodSmug<br>MoodSwamp<br>MoodTired<br>MoodUnderfireHeavy<br>MoodUnderfireMild<br>MoodWater<br>MoodWindExtreme<br>MoodWindMedium<br>MoodWindMild
-
+int |  | prsn_ilo_time | 
